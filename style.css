@@ -1,6 +1,38 @@
-
-  #contariner{
-    background-color: rgb(148, 121, 81);
-    width: 980px;
-    margin: 0px auto;
-  }
+@charset "ut-8";
+@import url(normalize.css);
+body{
+  background-color: rgb(162, 177, 211);
+  color: blueviolet;
+}
+h1{
+  width: 300px;
+  color: brown;
+  margin: 40px;
+  padding: 30px;
+  border: 5px solid #95dbbd;
+  background-color: #6fbb9a;
+  color: #fff;
+  font-size: 300%;
+  text-align: center;
+  line-height: 1;
+}
+main{
+  width: 80%;
+  background-color: rgb(255,255,255);
+  margin: 0px auto;
+  padding: 40px 80px;
+  border: 1px dotted #d0e35b;
+}
+h2{
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px dotted #94c8b1;
+  border-left: 10px solid #d0e35b;
+  color: #6fbb9a;
+}
+.round{
+  border-radius: 50%;
+}
+h1,header,nav,footer{
+  text-align: center;
+}
