@@ -1,0 +1,20 @@
+nav{
+  background-color: chocolate;
+  text-align: right;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration:none;
+    padding:10px;
+    color: bisque;
+}
+nav li a:hover{
+    background-color: aquamarine;
+    color:blue;
+    transition:background-color 2s linear, color 2s ease-in-out;
+}
