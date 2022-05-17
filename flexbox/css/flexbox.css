@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+body,ul{
+    margin:0px;
+}
+nav{
+    background-color:palevioletred;
+}
+nav ul{
+    display: flex;
+    justify-content:right;
+    margin:0px;
+}
+nav li{
+    list-style-type: none;
+    padding:10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    padding:10px;
+}
+nav a:hover{
+    background-color: blanchedalmond;
+    color:chocolate;
+    transition: background-color 1s linear color 1s ease-in-out;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(248, 209, 222,100%);
+}
+
+.title{
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+}
+
+#photolist ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#photolist li{
+    list-style-type: none;
+    margin:10px;
+}
+
+#photolist img{
+    border-radius:10%;
+    box-shadow:5px 5px 10px grey;
+}
